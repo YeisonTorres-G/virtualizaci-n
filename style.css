@@ -19,34 +19,44 @@ body{
 .menu {
     display: inline-block;
     padding: 2% 3%;
-    border: none;
     border-radius: 4px;
     background-color: #232323;
     color: #f7f7f7;
     text-align: center;
     cursor: pointer;
-    transition: 0.5s;
-  }
+    transition: 1s;
+    border-color: red;
+    
+}
 
 .menu:hover{
     background-color: red;
-}
+    transform: scale(1.2);
+    
+  }
 
   .menu:active{
     background-color: aqua;
     transition: all;
-  }
+    
+}
 
   .content{
     margin: 10%;
     margin: solid;
-  }
-0h
+}
 
-.firma{
+.img{
+    
+    width: 20%;
+    height: 20%;
     justify-content: center;
+    border-color: red;
+    text-align: center;
+    margin: auto;
+    display: block;
 }
 
 
-  
+
   
